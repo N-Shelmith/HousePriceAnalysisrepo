@@ -1,11 +1,11 @@
 # HousePriceAnalysisrepo
-# 🏠 King County House Price Prediction
+# King County House Price Prediction
 
 This notebook is part of a final data analysis project where I worked as a Data Analyst for a Real Estate Investment Trust (REIT). The goal was to analyze residential housing data and build predictive models to estimate home prices based on features such as square footage, location, number of bedrooms, and more.
 
 ---
 
-## 📊 Dataset
+## Dataset
 The dataset contains information on houses sold in King County (Seattle), including:
 - House features (e.g., bedrooms, bathrooms, sqft_living, floors)
 - Geographical data (lat, long, zipcode)
@@ -14,7 +14,7 @@ The dataset contains information on houses sold in King County (Seattle), includ
 
 ---
 
-## 📌 Key Tasks Performed
+## Key Tasks Performed
 
 ### 1. **Data Import and Cleaning**
 - Loaded the housing dataset.
@@ -39,25 +39,25 @@ The dataset contains information on houses sold in King County (Seattle), includ
 
 ---
 
-## 📈 Results
+## Results
 
 | Model                        | R² Score (Test) |
 |-----------------------------|-----------------|
 | Linear Regression (sqft)    | 0.4929          |
 | Multiple Linear Regression  | 0.6577          |
 | Ridge Regression            | 0.6478          |
-| Ridge + Polynomial (deg=2)  | **0.7003** ✅    |
+| Ridge + Polynomial (deg=2)  | **0.7003**    |
 
 ---
 
-## ✅ Tools Used
+## Tools Used
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - Scikit-learn (Regression, Pipelines, Polynomial Features)
 - Jupyter Notebook / JupyterLite
 
 ---
 
-## 📌 Final Thoughts
+## Final Thoughts
 This project enhanced my ability to:
 - Perform end-to-end regression analysis.
 - Preprocess and visualize real-world data.
@@ -65,7 +65,7 @@ This project enhanced my ability to:
 
 ---
 
-## 📁 File
+## File
 - `House_Sales_in_King_Count_USA-20231003-1696291200.jupyterlite (1).ipynb`: Full analysis notebook
 
 ---
